@@ -128,6 +128,46 @@ input[type="submit"]:hover {
   margin-bottom: 40px;
 }
 
+/* Desktop */
+
+@media (min-width : 700px) {
+  .logo {
+    width: 96px;
+    margin-bottom: 60px;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  .suscribe {
+    font-size: 1.05em;
+    font-weight: 300;
+  }
+  form {
+    width: 638px;
+    display: flex;
+    justify-content: space-between;
+  }
+  input[type="email"] {
+    width: 420px;
+    height: 55px;
+    font-size: 0.8em;
+  }
+  #error {
+    text-align: left;
+    padding-left: 24px;
+  }
+  input[type="submit"] {
+    width: 200px;
+    height: 55px;
+    margin-bottom: 90px;
+    font-size: 0.8em;
+  }
+  .dashboard {
+    width: 640px;
+    margin-bottom: 74px;
+  }
+}
+
 
 
 
